@@ -4,6 +4,7 @@ Dit is een repo voor het vak **Functional programming** `@cmd-information-design
 Tijdens dit vak zullen onderwerpen als functional programming, het opschonen van data en het maken van data visualisaties
 aan bod komen. Via de [Wiki](https://github.com/randy554/functional-programming/wiki/Debrief) zal ik mijn voortgang en bevindingen met de rest delen.
 
+ ## Concept
  
 ## Installeren
 
@@ -19,10 +20,6 @@ aan bod komen. Via de [Wiki](https://github.com/randy554/functional-programming/
   Open -> index.html bekijk site: http://localhost:8080
 
 ```
-
-## Concept
-
-
 
 ## Bronnen
 
