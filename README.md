@@ -19,7 +19,7 @@ Variabelen
 Capacity: 200
 
 [Hoeveel oplaadpunten](https://opendata.rdw.nl/Parkeren/Open-Data-Parkeren-SPECIFICATIES-PARKEERGEBIED/b3us-f26s/data)
-ChargingPointCapacity
+ChargingPointCapacity: 4
 
 [Inkomen per gemeente](https://www.cbs.nl/nl-nl/maatwerk/2020/36/inkomen-per-gemeente-en-wijk-2017)
 Gemiddeld persoonlijk inkomen per inwoner:  18,9
