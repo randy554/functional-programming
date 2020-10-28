@@ -6,7 +6,7 @@ aan bod komen. Via de [Wiki](https://github.com/randy554/functional-programming/
 
  ## Concept
  
- Hoofdvraag: Biedt een gemeente met een gemiddeld hoger inkomen betere parkeer voorzieningen?
+ Hoofdvraag: Biedt een gemeente met een gemiddeld hoger inkomen betere parkeervoorzieningen?
 
 * Hoeveel parkeerplekken zijn er per gemeente?
 	- Assumptie: ik vermoed dat dit per gemeente zult verschillen.
