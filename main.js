@@ -1,20 +1,20 @@
 console.log("JS is alive!");
 
-// const studentData = getStudentData();
-// console.log(studentData.data);
-
+// Get dataset & assign to variable
 const stuData   = data;
-// console.log(stuData);
-// console.log(`Hele dataset: ${stuData}`);
-// console.log(`Eerste dataset: ${stuData[0]}`);
-// console.log("Eerste dataset: ", stuData[0]);
-// console.log(`Eerste dataset schermtijd: ${stuData[0].schermtijdPerDagVolgensTelefoon}`);
 
-// stringToIntegers(stuData);
+// console.log("Juiste Hele dataset: ", stuData);
+// console.log("Eerste dataset2: ", stuData[0]);
+
+// If any empty input, set it 0 en return the new list
 let fullyFilledList     = emptyInputToIntegers(stuData);
-let allIntegersList     = stringToIntegers(fullyFilledList);
-getSkepticalInput(allIntegersList);
 
+// Set all string values to integers
+let allIntegersList     = stringToIntegers(fullyFilledList);
+
+// Check for strange values & append them to the list
+// getSkepticalInput(allIntegersList);
+filterGetSkepticalInput(allIntegersList);
 
 
 
@@ -22,10 +22,9 @@ getSkepticalInput(allIntegersList);
     function emptyInputToIntegers(data) {
 
         let newDataList = [];
+        let giveInteger = 0;
 
         data.forEach(function (value, index, all) {
-
-            let giveInteger = 0;
 
             if(value.schermtijdPerDagVolgensTelefoon.length === 0) {
 
@@ -68,31 +67,26 @@ getSkepticalInput(allIntegersList);
         console.log("Full list with potential skeptical data: ", newDataList);
         return newDataList;
 
-        // function getSchermtijdData(data) {
-        //
-        // let totalDataFound          = null;
-        // let geenAntwoordCount       = null;
-        // let geenGeldigAntwoordcount = null;
-        //
-        // data.forEach(function (value, index, all){
-        //
-        //     console.log(value.schermtijdPerDagVolgensTelefoon);
-        //
-        //     if(value.schermtijdPerDagVolgensTelefoon <= 10 || value.schermtijdPerDagVolgensTelefoon >= 1200){
-        //         console.log("NIET GELDIG!");
-        //         geenGeldigAntwoordcount++;
-        //
-        //         data.splice()
-        //     }
-        //     totalDataFound++;
-        //
+    }
+
+    function filterGetSkepticalInput(data) {
+
+        // let filteredList    = data.filter(function (minuten) {
+        //     console.log("NIET GELDIG FILTER!");
+        //     return minuten <= 10 || minuten >= 1200;
         // });
 
+        let filteredList    = data.filter(function (minuten) {
+            // console.log(minuten);
+            if(minuten <= 10 || minuten >= 1200){
+                console.log("NIET GELDIG!");
+                return minuten;
+                // return minuten <= 10 || minuten >= 1200;
+            }
 
-        // totalDataFound++;
-        // console.log("Total data found: "+ totalDataFound);
-        // console.log("Skeptical data found: "+ geenGeldigAntwoordcount);
-        // console.log("Empty data found: "+ totalDataFound);
+        });
+
+        console.log("ja: ", filteredList);
 
     }
 
@@ -103,7 +97,6 @@ getSkepticalInput(allIntegersList);
 
         data.forEach(function (value, index, all) {
 
-            // let newInteger = parseInt(value.schermtijdPerDagVolgensTelefoon);
             let newInteger = parseInt(value);
             newDataList.push(newInteger);
 
