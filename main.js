@@ -24,7 +24,7 @@ filterGetSkepticalInput(allIntegersList);
         let newDataList = [];
         let giveInteger = 0;
 
-        data.forEach(function (value, index, all) {
+        data.forEach(function (value) {
 
             if(value.schermtijdPerDagVolgensTelefoon.length === 0) {
 
@@ -49,7 +49,7 @@ filterGetSkepticalInput(allIntegersList);
         let newDataList     = [];
         let skepticalList   = [];
 
-        data.forEach(function (value, index, all){
+        data.forEach(function (value){
 
             if(value <= 10 || value >= 1200){
                 console.log("NIET GELDIG!");
@@ -71,18 +71,9 @@ filterGetSkepticalInput(allIntegersList);
 
     function filterGetSkepticalInput(data) {
 
-        // let filteredList    = data.filter(function (minuten) {
-        //     console.log("NIET GELDIG FILTER!");
-        //     return minuten <= 10 || minuten >= 1200;
-        // });
-
         let filteredList    = data.filter(function (minuten) {
-            // console.log(minuten);
-            if(minuten <= 10 || minuten >= 1200){
-                console.log("NIET GELDIG!");
-                return minuten;
-                // return minuten <= 10 || minuten >= 1200;
-            }
+
+            return minuten <= 10 || minuten >= 1200;
 
         });
 
@@ -95,7 +86,7 @@ filterGetSkepticalInput(allIntegersList);
 
         let newDataList = [];
 
-        data.forEach(function (value, index, all) {
+        data.forEach(function (value) {
 
             let newInteger = parseInt(value);
             newDataList.push(newInteger);
