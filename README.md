@@ -43,6 +43,7 @@ Gemeente locatie: weet nog niet
 ## Bronnen
 
 * [freeCodeCamp](https://www.freecodecamp.org)
+* [Fun fun functions](https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&index=1)
 
 ## License
 
