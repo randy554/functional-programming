@@ -6,7 +6,7 @@ aan bod komen. Via de [Wiki](https://github.com/randy554/functional-programming/
 
  ## Concept
  
- ### [Live demo](https://github.com/randy554/functional-programming/blob/main/index.html)
+ ### [Live demo](https://github.com/randy554/functional-programming/)
  
  Hoe toekomst gericht zijn parkeer garages binnen de Randstad?
  
