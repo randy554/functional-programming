@@ -6,8 +6,8 @@ aan bod komen. Via de [Wiki](https://github.com/randy554/functional-programming/
 
  ## Concept
  
- ### [Live demo](https://github.com/randy554/functional-programming/)
- 
+ ### [Live demo](https://randy554.github.io/functional-programming/)
+
  Hoe toekomst gericht zijn parkeer garages binnen de Randstad?
  
  Met deze opdracht wil ik door middel van de RDW API, in kaart brengen hoeveel moderne parkeer garages er te zien zijn 
