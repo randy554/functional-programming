@@ -16,7 +16,7 @@ aan bod komen. Via de [Wiki](https://github.com/randy554/functional-programming/
  Deze gegevens moeten uit de dataset van het RDW worden gefilterd en worden opgeschoond voor gebruik. Het eindresultaat
  is een serie bar charts die de verhoudingen in kaart brengen tussen moderne en niet moderne parkeer garages.
  
- De huidige concept is een iteratie op een voorgaande [concept](http://example.com). 
+ Het huidige concept is een iteratie op een voorgaande [concept](http://example.com). 
   
   __Parkeer garages met/zonder oplaadpunten__
  ![Hoeveel oplaadpunten](wiki_images/concept_oplaadpunten.png)
